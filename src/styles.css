@@ -230,5 +230,4 @@
     to { opacity: 1; transform: translateY(0); }
   }
   .animate-rise { animation: rise 0.8s var(--transition-smooth) both; }
-  }
 }
