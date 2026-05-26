@@ -24,8 +24,8 @@ export function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
         scrolled ? "backdrop-blur-xl bg-background/60 border-b border-border" : ""
-      }`}
-    >
+      }`} 
+      >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         <a href="#home" className="group flex items-center gap-1 text-2xl font-bold">
           <span className="text-foreground">A</span>

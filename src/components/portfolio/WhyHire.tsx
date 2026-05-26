@@ -1,4 +1,4 @@
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/Profil-2.jpeg";
 
 export function WhyHire() {
   return (

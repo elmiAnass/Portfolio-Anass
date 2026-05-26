@@ -1,5 +1,5 @@
 import { ArrowDown, ArrowUpRight } from "lucide-react";
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/Profil.jpeg";
 import torus from "@/assets/torus.png";
 
 export function Hero() {
@@ -34,7 +34,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground">
-            I&apos;m Anass — a Web Designer &amp; Developer turning ideas into
+            I&apos;m Anass a Web Designer &amp; Developer turning ideas into
             beautiful, functional websites that perform.
           </p>
 
