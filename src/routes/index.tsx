@@ -1,4 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect } from "react";
+import { client } from "@/lib/appwrite";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
 import { About } from "@/components/portfolio/About";
@@ -29,6 +31,10 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  useEffect(() => {
+    client.ping().catch((err) => console.error("Appwrite ping failed:", err));
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
