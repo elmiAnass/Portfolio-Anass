@@ -30,9 +30,8 @@ export function Footer() {
         <div>
           <h4 className="mb-4 text-sm font-semibold text-neon">Contact</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li>+212 6 12 34 56 78</li>
-            <li>anass.elmissaoui@gmail.com</li>
-            <li>portfolio-anass.com</li>
+            <li><a href="tel:+212 625821794">+212 625821794</a>  </li>
+            <li>anasselmissaoui@gmail.com</li>
           </ul>
         </div>
 
